@@ -38,7 +38,14 @@ public class TodolistView {
 
     // add todolist
     public void addTodolist(){
+        System.out.println("Menambah TODOLIST");
 
+        var todo = InputUtil.input("Todo (x jika batal)");
+        if(todo.equals("x")){
+            // batal
+        }else {
+            todolistService.addTodolist(todo);
+        }
     }
 
     // remove
