@@ -11,7 +11,7 @@ public interface TodolistRepository {
     void add(Todolist todolist);
 
     // menghapus data
-    void remove(Integer number);
+    boolean remove(Integer number);
 
 
 }
