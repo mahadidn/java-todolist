@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49708c67-736f-472e-b6af-8e6cb499e4c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/view/TodolistViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/view/TodolistViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AplikasiTodolistV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AplikasiTodolist.executor": "Run",
+    "Application.AplikasiTodolistV2.executor": "Run",
     "Application.TodolistServiceTest.executor": "Run",
     "Application.TodolistViewTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -43,9 +45,16 @@
     "onboarding.tips.debug.path": "/home/mdn/Documents/java/java-oop-todolist/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TodolistViewTest">
+  <component name="RunManager" selected="Application.AplikasiTodolistV2">
     <configuration name="AplikasiTodolist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AplikasiTodolist" />
+      <module name="java-oop-todolist" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AplikasiTodolistV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AplikasiTodolistV2" />
       <module name="java-oop-todolist" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AplikasiTodolistV2" />
         <item itemvalue="Application.TodolistViewTest" />
         <item itemvalue="Application.TodolistServiceTest" />
         <item itemvalue="Application.AplikasiTodolist" />
