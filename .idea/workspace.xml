@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49708c67-736f-472e-b6af-8e6cb499e4c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/service/TodolistServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/service/TodolistServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/InputUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
