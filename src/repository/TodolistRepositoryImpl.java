@@ -11,8 +11,43 @@ public class TodolistRepositoryImpl implements TodolistRepository{
         return data;
     }
 
+    public boolean isFull(){
+        // cek apakah model penuh?
+        var isFull = true;
+        for (int i = 0; i < data.length; i++){
+            if(data[i] == null){
+                // model masih ada yang kosong
+                isFull = false;
+                break;
+            }
+        }
+        return isFull;
+    }
+
+    public void resizeIfFull(){
+        // jika penuh, kita resize ukuran array model nya 2x lipat
+        if(isFull()){
+            var temp = data;
+            data = new Todolist[data.length * 2];
+
+            for (int i = 0; i < temp.length; i++){
+                data[i] = temp[i];
+            }
+        }
+    }
+
     @Override
     public void add(Todolist todolist) {
+
+        resizeIfFull();
+
+        // Tambahkan ke posisi yang data array nya NULL
+        for (var i = 0; i < data.length; i++){
+            if(data[i] == null){
+                data[i] = todolist;
+                break;
+            }
+        }
 
     }
 
